@@ -1,0 +1,21 @@
+.todo {
+  /* 24D */
+  border: 3px solid #ddd;
+  /* 24E */
+  padding: 10px;
+  /* 24C */
+  margin-bottom: 10px;
+  /* 25C-1 */
+  position: relative;
+}
+
+.todo__id {
+  /* 25C-3 */
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.todo:nth-child(1) {
+  margin-top: 20px;
+}

@@ -1,0 +1,55 @@
+.list {
+  max-width: 40vw;
+  margin: 120px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .list {
+    max-width: 80vw;
+  }
+}
+
+/* 22C-3 */
+.list__sub-header h3 {
+  /* 24C */
+  margin: 10px;
+  /* 24E */
+  padding: 10px;
+  /* 25D */
+  display: inline-block;
+}
+
+/* 22C-4 */
+.list__button > div {
+  /* 23F */
+  background-image: url("https://cdn1.iconfinder.com/data/icons/dental-line-3/48/126-512.png");
+  background-size: contain;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 15px;
+}
+
+/* 22C-5 */
+.list__title + button {
+  /* 25F */
+  float: right;
+  margin-top: 10px;
+  /* 23D-2 */
+  color: #fff;
+  /* 23E */
+  background-color: green;
+  /* 23D-3 */
+  font-size: 1rem;
+  /* 23D-1 */
+  font-weight: 500;
+  display: flex;
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  cursor: pointer;
+}

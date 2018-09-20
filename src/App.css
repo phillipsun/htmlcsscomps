@@ -1,0 +1,8 @@
+/* 24F */
+* {
+  box-sizing: border-box;
+}
+
+:disabled {
+  font-size: 2rem;
+}
